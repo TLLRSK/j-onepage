@@ -1,0 +1,90 @@
+body {
+    color: #656565;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 20px 40px 0 40px;
+    background-color: white;
+
+    
+}
+
+.logo {
+    max-width: 240px;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 60px 40px 60px;
+}
+
+.illo {
+    width: 400px;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 50px 40px 40px;
+}
+.hi-p {
+    font-size: 42px;
+}
+.descr-p {
+    font-size: 42px;
+}
+
+.contact {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px 0 40px;
+}
+.email {
+    display: flex;
+    align-items: center;  
+}
+.email a {
+    font-size: 52px;
+    color: white;
+    text-decoration: none;
+
+}
+.email img {
+    max-width: 80px;
+}
+
+.contact {
+    display:flex;
+    flex-direction: row;
+}
+
+.sm-list {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sm-list img{
+    max-width: 80px;
+}
